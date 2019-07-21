@@ -1,0 +1,30 @@
+div{
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.display-box {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    
+    margin-left: 5%;
+    width: 40%;
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+
+#btn {
+    width: 100%;
+    margin-top: 9%;
+    
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+html{
+    background-color: white;
+}
