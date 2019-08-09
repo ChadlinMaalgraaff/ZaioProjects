@@ -1,6 +1,4 @@
 import React, { Component, PropTypes }from 'react'
-import { Link, NavLink } from 'react-router-dom';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 class Login extends Component {
 
@@ -37,7 +35,7 @@ class Login extends Component {
         return (
             <div className="loginform lightgray">
                 <form className="lightgray" onSubmit={this.handleSubmit}>
-                    <h3 className="title center">Login</h3>
+                    <h3 className="title center" style={{color: '#6A686B'}}>Login</h3>
                     <div className="input-field">
                         <label htmlFor="email">Email Address</label>
                         <input type="email" id="email"/>

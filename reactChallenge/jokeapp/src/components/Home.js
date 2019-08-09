@@ -15,7 +15,7 @@ class Home extends Component {
     render() {
         return (
             <div className="home">
-                <h2>You need to login to Crack Jokes!</h2>
+                <h2 style={{color: '#6A686B'}}>You need to login to Crack Jokes!</h2>
             </div>
         )
     }
